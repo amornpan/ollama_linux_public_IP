@@ -6,6 +6,7 @@ Open the ollama.service file with a text editor:
 sudo vi /etc/systemd/system/ollama.service
 
 Add the following line under the [Service] section:
+new line !!
 
 [Service]
 Environment="OLLAMA_HOST=0.0.0.0:11434"
