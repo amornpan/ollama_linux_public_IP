@@ -23,3 +23,14 @@ sudo systemctl restart ollama
 ```
 ![alt text](https://github.com/user-attachments/assets/3a9d0312-298d-4618-a7da-e7fb23586c2e)
 
+
+```
+sudo systemctl stop ollama.service
+
+sudo systemctl disable ollama.service
+
+sudo systemctl status ollama.service
+```
+
+
+
